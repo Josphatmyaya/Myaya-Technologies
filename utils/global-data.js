@@ -1,9 +1,9 @@
 export const getGlobalData = () => {
-  const name = process.env.MYAYA_TECHNOLOGIES
-    ? decodeURI(process.env.MYAYA_TECHNOLOGIES)
+  const name = process.env.BLOG_TITLE
+    ? decodeURI(process.env.BLOG_TITLE)
     : 'Jay Doe';
   const blogTitle = process.env.BLOG_TITLE
-    ? decodeURI(process.env.MYAYA_TECHNOLOGIES)
+    ? decodeURI(process.env.BLOG_TITLE)
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.HOT_PRO)
